@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "poyfx_root",
+    "password": "123456",
+    "database": "test_dev",
+    "host": "47.107.42.209",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "poyfx_root",
+    "password": "123456",
+    "database": "test",
+    "host": "47.107.42.209",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "poyfx_root",
+    "password": "123456",
+    "database": "poyfx_root",
+    "host": "47.107.42.209",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
