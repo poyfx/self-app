@@ -18,7 +18,7 @@ module.exports = {
         username:'poyfx',
         password:md5('123456'),
         createdAt:new Date(),
-       updatedAt:new Date()
+        updatedAt:new Date()
      },
      {
        username:'pp',
@@ -101,5 +101,6 @@ module.exports = {
       Example:
       return queryInterface.bulkDelete('People', null, {});
     */
+   return queryInterface.bulkDelete('users', null, {});
   }
 };
