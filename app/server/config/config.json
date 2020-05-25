@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "poyfx_root",
+    "password": "123456",
+    "database": "test_dev",
+    "host": "47.107.42.209",
+    "dialect": "mysql",
+    "freezeTableName":true
+   
+  },
+  "test": {
+    "username": "poyfx_root",
+    "password": "123456",
+    "database": "test",
+    "host": "47.107.42.209",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "freezeTableName":true
+  },
+  "production": {
+    "username": "poyfx_root",
+    "password": "123456",
+    "database": "poyfx_root",
+    "host": "47.107.42.209",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "freezeTableName":true
+  }
+}
