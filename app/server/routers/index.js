@@ -9,17 +9,7 @@ const router = new KoaRouter();
 
 router.get('/api/comments', async ctx => {
   
-    // const users  = await Models.users.findAll()
-    // const contents  = await Models.contents.findAll()
-    //  const comments  = await Models.comments.findAll()
-    //  const likes  = await Models.likes.findAll()
-    // const data = {
-    //     users,
-    //     contents,
-    //     comments,
-    //     likes
-    // }
-    
+  
 
      
     const res  = await Models.contents.findAndCountAll({
