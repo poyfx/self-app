@@ -29,7 +29,8 @@ router.get('/api/comments', async ctx => {
             username:el.user.username,
             updatetime:el.updatetime,
             like_count:el.like_count,
-            comment_count:el.comment_count
+            comment_count:el.comment_count,
+            create_time:el.createdAt
             
         }
     })
@@ -37,7 +38,8 @@ router.get('/api/comments', async ctx => {
       ctx.body =   {
           code:0,
           count:res.count,
-          data
+          data,
+          msg:''
       }
 });
 
